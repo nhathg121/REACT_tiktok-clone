@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "../DefaultLayout/Header";
 
 function DefaultLayout({ children }) {
   return (
@@ -10,5 +10,4 @@ function DefaultLayout({ children }) {
     </div>
   );
 }
-
 export default DefaultLayout;
